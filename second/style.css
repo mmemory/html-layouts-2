@@ -5,3 +5,67 @@ html, body {
     padding: 0;
 }
 
+body {
+    background-color: #D0D0D0;
+}
+
+.main-content--wrapper {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.content-article--first, .content-article--second {
+    background-color: white;
+    padding: 20px 40px 40px 40px;
+    margin-top: 50px;
+}
+
+.content-article--text {
+    color: #555;
+}
+
+.content-article--text p {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.button {
+    width: 100px;
+    margin-right: 16px;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    padding: 15px;
+
+}
+
+.btn-red {
+    background-color: #C80A1C;
+}
+
+.btn-blue {
+    background-color: #498BD9;
+}
+
+.content-article--second {
+
+}
+
+.content-display--image {
+
+}
+
+.content-article--text {
+
+}
+
+
+
+.main--footer {
+
+}
