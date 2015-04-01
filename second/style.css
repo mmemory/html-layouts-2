@@ -15,7 +15,7 @@ body {
     margin: 0 auto;
 }
 
-.content-article--first, .content-article--second {
+.content-article {
     background-color: white;
     padding: 20px 40px 40px 40px;
     margin-top: 50px;
@@ -25,7 +25,7 @@ body {
     color: #555;
 }
 
-.content-article--text p {
+.content-article--text p, .content-display--image, .main--footer p {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 25px;
     font-weight: 400;
@@ -33,14 +33,14 @@ body {
 }
 
 .button {
-    width: 100px;
+    width: 130px;
     margin-right: 16px;
     text-align: center;
     display: inline-block;
     color: white;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 25px;
-    padding: 15px;
+    font-size: 30px;
+    padding: 20px;
 
 }
 
@@ -52,20 +52,33 @@ body {
     background-color: #498BD9;
 }
 
-.content-article--second {
-
-}
-
 .content-display--image {
-
+    width: 100%;
+    background-color: #49494A;
+    text-align: center;
+    padding: 300px 0;
+    color: white;
+    font-size: 50px;
+    margin-top: 20px;
+    font-weight: 300;
 }
-
-.content-article--text {
-
-}
-
-
 
 .main--footer {
+    width: 100%;
+    padding: 40px 0;
+    background-color: #333;
+    margin-top: 50px;
+    text-align: right;
+}
 
+.footer--content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main--footer p {
+    display: inline;
+    color: #ddd;
+    margin-left: 50px;
+    font-size: 30px;
 }
